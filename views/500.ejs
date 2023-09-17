@@ -1,0 +1,10 @@
+<%- include('includes/head.ejs') %>
+</head>
+
+<body>
+    <%- include('includes/navigation.ejs') %>
+    <h1>Some error Occured</h1>
+    <% if(error) {%><h3><%= error %></h3><% } %>
+    <p>Please try again or few minutes later</p>
+
+<%- include('includes/end.ejs') %>
