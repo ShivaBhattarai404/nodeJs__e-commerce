@@ -17,7 +17,7 @@ const MONGODB_URI = 'mongodb+srv://shiva:kerwani12345@cluster0.ugfyt7l.mongodb.n
 const store = new mongodbStore({
     uri: MONGODB_URI,
     collection: 'sessions'
-})
+});
 
 app.set('view engine', 'ejs');
 app.set('views', 'views');
