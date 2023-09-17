@@ -10,5 +10,6 @@ app.set('views', 'views');
 
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
+const auth = require('./routes/auth');
 
 app.listen(3000);
