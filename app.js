@@ -9,7 +9,7 @@ const flash = require('connect-flash')
 const multer = require('multer')
 
 const errorController = require('./controllers/error');
-const User = require('./models/user')
+const User = require('./models/user');
 
 const app = express();
 // const MONGODB_URI = 'mongodb+srv://shiva:kerwani123@cluster0.i8wdij1.mongodb.net/shop'
